@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         video = document.createElement('video');
         body.appendChild(video);
-        video.src = '/vid/rickroll.mkv';
+        video.src = 'vid/rickroll.mkv';
         video.style.height = '80%';
         video.style.width = '80%';
         video.loop = 'true';

@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
         cancion = document.querySelector('#cancion');
         val = menu.value;
         if (val == 'de agua') {
-            cancion.src = '/mp3/debussy.mp3';
+            cancion.src = 'mp3/debussy.mp3';
             audio.load();
         } else if (val == 'de viento') {
-            cancion.src = '/mp3/vsnare.mp3';
+            cancion.src = 'mp3/vsnare.mp3';
             audio.load();
         } else if (val == 'de tierra') {
-            cancion.src = '/mp3/spektor.mp3';
+            cancion.src = 'mp3/spektor.mp3';
             audio.load();
         } else {
             cancion.src = '';
