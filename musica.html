@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>welwelwelwelWEL</title>
+        <script src="audio.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1>
+                nube<sup>\nube</sup>
+            </h1>
+            <ul>
+                <li>
+                    <a href='index.html'>descanso</a>
+                </li>
+                <li>
+                    <a href='#' class='active'>música</a>
+                </li>
+                <li>
+                    <a href='letras.html'>letras</a>
+                </li>
+                <li>
+                    <a href='comida.html'>comida</a>
+                </li>
+            </ul>
+        </nav>
+        <article class="container flex-container" id="nopadbot" style="margin-bottom:0">
+            <img alt="girl with synthesizers" class="flex-gif" src="/img/mpc.gif">
+            <p class="flex-p" title="debussy">
+                un total de fuerzas dispersas expresadas en un proceso sonoro que incluye: instrumento, instrumentista, creadorx y su obra, un medio propagador y un sistema receptor.
+            </p>
+        </article>
+        <section id="musica" class="container nopadtop" style="margin-top:0">
+            <form style="display: table; margin: auto">
+                <label style="padding-right: 5px">
+                    canción 
+                </label>
+                <select id="menu">
+                    <option>
+                        ---
+                    </option>
+                    <option>
+                        de agua
+                    </option>
+                    <option>
+                        de viento
+                    </option>
+                    <option>
+                        de tierra
+                    </option>
+                </select>
+            </form>
+            <hr>
+            <audio autoplay controls id="audio" style="display:block; margin: auto; color: blue;">
+                <source id="cancion">
+            </audio>
+        </section>
+    </body>
+</html>
